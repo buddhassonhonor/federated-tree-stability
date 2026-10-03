@@ -1,0 +1,8 @@
+# Python 3.13 environment used for artifact checks, not the historical benchmark run.
+numpy==2.4.3
+pandas==2.3.3
+scikit-learn==1.9.0
+scipy==1.15.3
+xgboost==3.2.0
+matplotlib==3.10.8
+PyYAML==6.0.3

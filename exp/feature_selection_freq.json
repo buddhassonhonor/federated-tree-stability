@@ -1,0 +1,54 @@
+{
+  "Synthetic": {
+    "FLSE": {
+      "root": {
+        "invariant": 0.0,
+        "spurious": 1.0,
+        "noise": 0.0
+      },
+      "top3": {
+        "invariant": 0.014285714285714285,
+        "spurious": 0.9857142857142858,
+        "noise": 0.0
+      }
+    },
+    "FITI": {
+      "root": {
+        "invariant": 1.0,
+        "spurious": 0.0,
+        "noise": 0.0
+      },
+      "top3": {
+        "invariant": 1.0,
+        "spurious": 0.0,
+        "noise": 0.0
+      }
+    }
+  },
+  "Adult_Spurious": {
+    "FLSE": {
+      "root": {
+        "invariant": 0.0,
+        "spurious": 1.0,
+        "noise": 0.0
+      },
+      "top3": {
+        "invariant": 0.857142857142857,
+        "spurious": 0.14285714285714282,
+        "noise": 0.0
+      }
+    },
+    "FITI": {
+      "root": {
+        "invariant": 1.0,
+        "spurious": 0.0,
+        "noise": 0.0
+      },
+      "top3": {
+        "invariant": 1.0,
+        "spurious": 0.0,
+        "noise": 0.0
+      }
+    }
+  }
+}

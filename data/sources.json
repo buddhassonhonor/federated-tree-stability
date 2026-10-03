@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "path": "adult/adult.data",
+      "download_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data",
+      "source_url": "https://archive.ics.uci.edu/dataset/2/adult",
+      "size": 3974305,
+      "sha256": "5b00264637dbfec36bdeaab5676b0b309ff9eb788d63554ca0a249491c86603d"
+    },
+    {
+      "path": "adult/adult.test",
+      "download_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.test",
+      "source_url": "https://archive.ics.uci.edu/dataset/2/adult",
+      "size": 2003153,
+      "sha256": "a2a9044bc167a35b2361efbabec64e89d69ce82d9790d2980119aac5fd7e9c05"
+    },
+    {
+      "path": "german/german.data",
+      "download_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/german.data",
+      "source_url": "https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data",
+      "size": 79793,
+      "sha256": "b21f3d81db8071257d5ff1deaeba1fd4303b62712e6fcc9715c7a86202cb5871"
+    },
+    {
+      "path": "compas/compas-scores-two-years.csv",
+      "download_url": "https://raw.githubusercontent.com/propublica/compas-analysis/c062fbb5fa84f6c99d82f432c46b405f3a0ca5ec/compas-scores-two-years.csv",
+      "source_url": "https://github.com/propublica/compas-analysis",
+      "size": 2546489,
+      "sha256": "c451db85908b2f7fef1d83203bedf6b71ecda0d5af468d82ae62178f91d0cc7d"
+    }
+  ]
+}
