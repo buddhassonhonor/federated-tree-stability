@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this versioned FITI artifact when using the code or result data."
+type: software
+title: "Cross-client stability for interpretable federated decision trees: FITI code and result data"
+version: 1.0.0
+date-released: 2026-10-03
+authors:
+  - family-names: Huang
+    given-names: Zhigao
+url: "https://github.com/buddhassonhonor/federated-tree-stability/releases/tag/v1.0.0"
+repository-code: "https://github.com/buddhassonhonor/federated-tree-stability"
+license: MIT
+keywords:
+  - federated learning
+  - decision trees
+  - out-of-distribution generalization
+  - reproducibility

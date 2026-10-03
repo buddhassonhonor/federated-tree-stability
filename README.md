@@ -2,6 +2,8 @@
 
 Artifact version: **1.0.0**.
 
+Author: **Zhigao Huang**. Code is licensed under MIT (`LICENSE`). Original result data, synthetic data, figures, and non-software documentation are licensed under CC BY 4.0 (`LICENSE-DATA`). Third-party inputs retain their upstream terms. Citation metadata is provided in `CITATION.cff`.
+
 Supports the manuscript **Beyond predictive gain: cross-client stability for interpretable federated decision trees**. FITI scores candidate rules by impurity gain minus cross-client variance in conditional label probability shifts.
 
 ## Contents
@@ -49,7 +51,7 @@ The Adult and German Credit inputs are available from UCI; COMPAS is available f
 
 The primary archived implementation uses three threshold percentiles (25, 50, 75). The fixed-penalty feature diagnostic uses nine percentiles. The primary routine assigns zero gain and shift to a client whose candidate split has an empty child, and uses Laplace-smoothed shifts when both children are populated. These are properties of the released implementation and are not silently changed during packaging.
 
-The loaders encode categorical values rather than implementing the median/mode imputation described in the manuscript. Adult Spurious fits its encoder on the original Adult training split before repartitioning the concatenated official training and test files; this does not strictly isolate encoder fitting from the subsequently constructed OOD clients. Natural-partition loaders fit encoders on their training groups. The supplied implementation and archived outputs should be assessed with these preprocessing details in view.
+The loaders use ordinal encoding for categorical values. Adult textual missing-value markers remain encoded categories; COMPAS loaders discard records missing required fields. Adult Spurious fits its encoder on the original Adult training split before repartitioning the concatenated official training and test files; this does not strictly isolate encoder fitting from the subsequently constructed OOD clients. Natural-partition loaders fit encoders on their training groups. The supplied implementation and archived outputs should be assessed with these preprocessing details in view.
 
 `iid_accuracy` uses subsets of training records and is not an independent held-out test metric. Main claims concern OOD accuracy. With two natural-partition clients, penalty selection trains on one client and validates on the other, leaving zero cross-client variance at the validation-training stage. Repeated-seed intervals characterize benchmark variability, not population replication. Pooled references, forest extensions, and weighting experiments have separate conditions; their result files are not interchangeable.
 

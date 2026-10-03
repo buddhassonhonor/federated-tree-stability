@@ -1,6 +1,9 @@
 {
   "title": "FITI code and result data",
   "version": "1.0.0",
+  "author": "Zhigao Huang",
+  "code_license": "MIT",
+  "data_documentation_license": "CC-BY-4.0",
   "files": [
     {
       "path": ".gitignore",
@@ -8,9 +11,24 @@
       "sha256": "d6f24464d5e4a9d22d2a56f155de2bef2f99a1ee2057a09d2a8d844bb894b6c6"
     },
     {
+      "path": "CITATION.cff",
+      "size": 612,
+      "sha256": "5ea75c1f538b8ee359780b63d0c9145e12d56772d6706467c7c2444c0be0219b"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1069,
+      "sha256": "727ff4b859585d1db8382b7dc43bca2e656b495a01827b79317542a1e2df1eff"
+    },
+    {
+      "path": "LICENSE-DATA",
+      "size": 581,
+      "sha256": "cdd41b84986f4a27aa73424dcc866bcb888c2f7cc57d8e59af619ce350a2c184"
+    },
+    {
       "path": "README.md",
-      "size": 4806,
-      "sha256": "cce8616909b56289f90b3ea25185123def0084c5a7da96e352540acc548c9a81"
+      "size": 5152,
+      "sha256": "6d5c99972da10e230488f9d2c9a4255a983bd0d9387b664144ccd4ed4bbd74e8"
     },
     {
       "path": "VERSION",
